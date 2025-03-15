@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/username/go-chat/internal/config"
+	"github.com/vcaraseni/go-chat/internal/config"
 	"gorm.io/driver/postgres"
 	"gorm.io/gorm"
 )

@@ -7,7 +7,7 @@ import (
 )
 
 func main() {
-	config.loadConfig()
+	config.LoadConfig()
 	database.ConnectDatabase()
 	database.Migrate()
 

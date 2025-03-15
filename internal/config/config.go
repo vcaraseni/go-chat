@@ -27,7 +27,7 @@ type DatabaseConfig struct {
 
 var AppConfig Config
 
-func loadConfig() {
+func LoadConfig() {
 	viper.SetConfigName("config")
 	viper.SetConfigType("yaml")
 	viper.AddConfigPath("./config")

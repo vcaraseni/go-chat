@@ -1,4 +1,22 @@
-This is a pet-project to practice Golang. 
-Current version works without storing messages in database.
-TODO:
-1. Add PostgreSQL initialisation
+# Go-Chat
+
+This is a pet project to practice Golang. The current version works without storing messages in the database.
+
+## Installation
+```bash
+npm install -g wscat
+git clone git@github.com:vcaraseni/go-chat.git
+cd go-chat/
+go run cmd/main.go
+```
+Open another terminal tab and run next commands:
+```bash
+wscat -c ws://localhost:8080/ws
+```
+Now you can send messages and get them back.
+
+## Todo List:
+1. Add message storage to the database.
+2. Connect the frontend (a simple HTML page with JavaScript for WebSocket).
+3. Implement a user system (registration, JWT authorization).
+4. Connect multiple chats (by room ID).

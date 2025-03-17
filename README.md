@@ -3,9 +3,10 @@
 This is a pet project to practice Golang. The current version works without storing messages in the database.
 
 ## Installation
+Make shure that port 8080 is not used
 ```bash
-npm install -g wscat
 git clone git@github.com:vcaraseni/go-chat.git
+npm install -g wscat
 cd go-chat/
 go run cmd/main.go
 ```
